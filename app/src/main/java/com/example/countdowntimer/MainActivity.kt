@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var circularProgressBar: ProgressBar
     private lateinit var linearProgressBar: ProgressBar
 
-    private val countdownTime = 3600 // 1 hour , 3600 second, 60 min
+    private val countdownTime = 60 // 1 hour , 3600 second, 60 min
     private val clockTime = (countdownTime * 1000).toLong()
     private val progressTime = (clockTime / 1000).toFloat()
 
